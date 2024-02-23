@@ -2356,38 +2356,18 @@ MonoBehaviour:
   - Name: Min
     NetLOD: 0
     Frequency: -1
-    Pending: 0
-    LastUpdated: 0
-    NeverString: Never
-    RealtimeString: Realtime
   - Name: Low
     NetLOD: 1
     Frequency: 0
-    Pending: 0
-    LastUpdated: 0
-    NeverString: Never
-    RealtimeString: Realtime
   - Name: Mid
     NetLOD: 2
     Frequency: 0
-    Pending: 0
-    LastUpdated: 0
-    NeverString: Never
-    RealtimeString: Realtime
   - Name: High
     NetLOD: 3
     Frequency: 0
-    Pending: 0
-    LastUpdated: 0
-    NeverString: Never
-    RealtimeString: Realtime
   - Name: Max
     NetLOD: 4
     Frequency: 500
-    Pending: 0
-    LastUpdated: 0
-    NeverString: Never
-    RealtimeString: Realtime
   _firstPerson: 1
   FirstPersonCameraTarget: {fileID: 8601427865539017300}
   ThirdPersonCameraTarget: {fileID: 352513294090459949}
@@ -2403,14 +2383,17 @@ MonoBehaviour:
   BulletCollisionLayers:
     serializedVersion: 2
     m_Bits: 129
-  GunMagazineSize: 19
+  GunMagazineSize: 12
   GunFireTime: 0.2
-  GunReloadTime: 2.35
+  GunReloadTime: 1.8
   DistanceFromBody: 0.4
-  MaxHealth: 50
+  ZoomFov: 40
+  ZoomInTime: 0.2
+  ZoomOutTime: 0.18
+  MaxHealth: 25
   Avatar: {fileID: 8601427866244821769}
-  MoveSpeed: 2
-  SprintSpeed: 5.335
+  MoveSpeed: 3.5
+  SprintSpeed: 6.5
   RotationSmoothTime: 0.12
   SpeedChangeRate: 10
   LandingAudioClip: {fileID: 8300000, guid: ff697d3070687ce4583faa0561a145a2, type: 3}
@@ -2449,7 +2432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Multiplayer: {fileID: 0}
-  IsMe: 0
+  IsPossessor: 0
   IsPossessed: 0
   OnPossessed:
     m_PersistentCalls:
